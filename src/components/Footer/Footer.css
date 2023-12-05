@@ -1,0 +1,26 @@
+.f-container {
+    justify-content: space-between;
+}
+
+.f-left img {
+    width: 120px;
+}
+
+.f-menu {
+    gap: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px){
+
+    .f-container {
+        justify-content: center;
+    }
+
+    .f-left,.f-right {
+        text-align: center;
+        align-items: center;
+    }
+
+}
